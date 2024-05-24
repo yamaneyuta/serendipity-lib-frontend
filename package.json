@@ -13,7 +13,7 @@
 	"scripts": {
 		"build": "npm run clean:dist && npm run build:js",
 		"build:js": "tsc",
-		"clean:dist": "rimraf dist",
+		"clean:dist": "rm -rf dist",
 		"format": "npm run format:js",
 		"format:js": "wp-scripts format",
 		"prepare": "npm run build",
@@ -24,7 +24,6 @@
 	"devDependencies": {
 		"@types/react": "^18.2.39",
 		"@wordpress/scripts": "^26.17.0",
-		"rimraf": "^5.0.5",
 		"typescript": "^5.3.2"
 	},
 	"peerDependencies": {
