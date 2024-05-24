@@ -16,6 +16,7 @@
 		"clean:dist": "rimraf dist",
 		"format": "npm run format:js",
 		"format:js": "wp-scripts format",
+		"prepare": "npm run build",
 		"start": "npm run watch",
 		"watch": "tsc -w"
 	},
