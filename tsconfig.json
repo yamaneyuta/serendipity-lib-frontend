@@ -1,15 +1,9 @@
 {
+	"extends": "./node_modules/@yamaneyuta/serendipity-dev-conf/typescript/tsconfig.browser.base.json",
 	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-		"declaration": true,
-		"jsx": "react-jsx",
-		"module": "esnext",
-		"moduleResolution": "node",
+		"declaration": true,	// .d.ts を出力する
 		"outDir": "dist",
-		"resolveJsonModule": true,
 		"sourceMap": true,
-		"skipLibCheck": true,
-		"target": "es5"
 	},
 	"include": [ "src/**/*.ts" ]
 }
