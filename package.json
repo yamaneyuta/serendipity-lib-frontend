@@ -24,6 +24,7 @@
 	"devDependencies": {
 		"@types/react": "^18.2.39",
 		"@wordpress/scripts": "^26.17.0",
+		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf",
 		"typescript": "^5.3.2"
 	},
 	"peerDependencies": {
