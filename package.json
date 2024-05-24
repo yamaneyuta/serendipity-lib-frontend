@@ -25,8 +25,7 @@
 	"devDependencies": {
 		"@types/node": "^20.12.12",
 		"@types/react": "^18.2.39",
-		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf",
-		"typescript": "^5.3.2"
+		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf"
 	},
 	"peerDependencies": {
 		"axios": "^1.6.0",
