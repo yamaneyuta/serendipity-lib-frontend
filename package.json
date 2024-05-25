@@ -17,7 +17,7 @@
 		"build:js": "tsc",
 		"ci:build": "tsc -p tsconfig.ci.json",
 		"clean:dist": "rm -rf dist",
-		"format": "prettier --write src",
+		"format": "eslint --fix src && prettier --write src",
 		"lint": "eslint src && prettier --check src",
 		"prepare": "npm run build",
 		"start": "npm run watch",
