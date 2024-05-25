@@ -11,7 +11,7 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"_update": "npm uninstall @yamaneyuta/serendipity-dev-conf && npm i -D @yamaneyuta/serendipity-dev-conf@github:yamaneyuta/serendipity-dev-conf",
+		"_update": "npm uninstall @yamaneyuta/serendipity-constants @yamaneyuta/serendipity-dev-conf && npm i -D @yamaneyuta/serendipity-constants@github:yamaneyuta/serendipity-constants @yamaneyuta/serendipity-dev-conf@github:yamaneyuta/serendipity-dev-conf",
 		"build": "npm run clean:dist && npm run build:js",
 		"build:js": "tsc",
 		"ci:build": "tsc -p tsconfig.ci.json",
@@ -26,6 +26,7 @@
 	"devDependencies": {
 		"@types/node": "^20.12.12",
 		"@types/react": "^18.2.39",
+		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants",
 		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf"
 	},
 	"peerDependencies": {
