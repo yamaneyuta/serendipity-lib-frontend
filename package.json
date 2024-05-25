@@ -26,10 +26,10 @@
 	"devDependencies": {
 		"@types/node": "^20.12.12",
 		"@types/react": "^18.2.39",
-		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants",
 		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf"
 	},
 	"peerDependencies": {
+		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants",
 		"axios": "^1.6.0",
 		"ethers": "^5.0.0",
 		"react": "^17.0.0 || ^18.0.0",
