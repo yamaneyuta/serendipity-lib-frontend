@@ -2,11 +2,11 @@
 	"name": "@yamaneyuta/serendipity-lib-frontend",
 	"version": "1.0.0",
 	"description": "",
-	"main": "dist/src/index.js",
+	"main": "dist/index.js",
 	"exports": {
 		".": {
-			"require": "./dist/src/index.js",
-			"import": "./dist/src/index.js"
+			"require": "./dist/index.js",
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
