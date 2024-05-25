@@ -2,6 +2,7 @@
 	"name": "@yamaneyuta/serendipity-lib-frontend",
 	"version": "1.0.0",
 	"description": "",
+	"private": true,
 	"main": "dist/index.js",
 	"exports": {
 		".": {
