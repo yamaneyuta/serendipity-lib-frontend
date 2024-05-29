@@ -13,6 +13,9 @@
 		},
 		"./package.json": "./package.json"
 	},
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"_update": "npm uninstall @yamaneyuta/serendipity-constants @yamaneyuta/serendipity-dev-conf && npm i -D @yamaneyuta/serendipity-constants@github:yamaneyuta/serendipity-constants @yamaneyuta/serendipity-dev-conf@github:yamaneyuta/serendipity-dev-conf",
 		"build": "npm run clean:dist && npm run build:js",
