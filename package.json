@@ -37,7 +37,6 @@
 	"peerDependencies": {
 		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants",
 		"axios": "^1.6.0",
-		"ethers": "^5.0.0",
 		"react": "^17.0.0 || ^18.0.0",
 		"react-dom": "^17.0.0 || ^18.0.0"
 	}
