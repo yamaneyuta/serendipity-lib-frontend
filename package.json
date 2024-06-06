@@ -17,7 +17,7 @@
 		"dist"
 	],
 	"scripts": {
-		"_update": "npm uninstall @yamaneyuta/serendipity-constants @yamaneyuta/serendipity-dev-conf && npm i -D @yamaneyuta/serendipity-constants@github:yamaneyuta/serendipity-constants @yamaneyuta/serendipity-dev-conf@github:yamaneyuta/serendipity-dev-conf",
+		"_update": "rm -rf node_modules package-lock.json ; npm i",
 		"build": "npm run clean:dist && npm run build:js",
 		"build:js": "tsc",
 		"ci:build": "tsc -p tsconfig.ci.json",
