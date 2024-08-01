@@ -34,7 +34,7 @@
 		"@types/node": "^20.14.13",
 		"@types/react": "^18.3.3",
 		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants#0.8.3",
-		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf"
+		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf#0.8.1"
 	},
 	"peerDependencies": {
 		"axios": "^1.6.0",
