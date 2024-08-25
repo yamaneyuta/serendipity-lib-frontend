@@ -32,6 +32,7 @@
 		"format": "eslint --fix src && prettier --write src",
 		"lint": "eslint src && prettier --check src",
 		"prepare": "npm run build",
+		"release": "npx release-it",
 		"start": "npm run watch",
 		"watch": "tsc -w -p tsconfig.esm.json"
 	},
