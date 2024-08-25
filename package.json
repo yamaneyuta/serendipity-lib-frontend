@@ -34,6 +34,7 @@
 		"prepare": "npm run build",
 		"release": "npx release-it",
 		"start": "npm run watch",
+		"update:package": "npx npm-check-updates -u --target minor",
 		"watch": "tsc -w -p tsconfig.esm.json"
 	},
 	"keywords": [],
