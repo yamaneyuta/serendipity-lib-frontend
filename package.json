@@ -21,8 +21,6 @@
 		"dist"
 	],
 	"scripts": {
-		"_update:package": "rm -rf node_modules package-lock.json ; npm i",
-		"_update:devcontainer": "dev-update devcontainer",
 		"prebuild": "npm run clean",
 		"build": "npm run build:cjs && npm run build:esm",
 		"build:cjs": "tsc -p ./tsconfig.cjs.json",
