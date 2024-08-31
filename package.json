@@ -15,6 +15,16 @@
 				"default": "./dist/cjs/index.js"
 			}
 		},
+		"./jest": {
+			"import": {
+				"types": "./dist/esm/jest/index.d.ts",
+				"default": "./dist/esm/jest/index.js"
+			},
+			"require": {
+				"types": "./dist/cjs/jest/index.d.ts",
+				"default": "./dist/cjs/jest/index.js"
+			}
+		},
 		"./package.json": "./package.json"
 	},
 	"files": [
