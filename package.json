@@ -42,7 +42,7 @@
 		"@types/node": "^20.16.1",
 		"@types/react": "^18.3.4",
 		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants#0.8.4",
-		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf#0.8.1",
+		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf#0.8.2",
 		"jest-environment-jsdom": "^29.7.0",
 		"ts-jest": "^29.2.5"
 	},
