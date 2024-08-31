@@ -1,8 +1,0 @@
-{
-	// CI用のビルド設定
-	"extends": "./tsconfig",
-	"compilerOptions": {
-		// 型チェックを厳密にする
-		"skipLibCheck": false,
-	}
-}
