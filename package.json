@@ -38,6 +38,7 @@
 	},
 	"keywords": [],
 	"devDependencies": {
+		"@testing-library/dom": "^10.4.0",
 		"@types/node": "^20.16.1",
 		"@types/react": "^18.3.4",
 		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants#0.8.4",
