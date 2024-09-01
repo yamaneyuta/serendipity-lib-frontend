@@ -41,6 +41,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"github.vscode-github-actions",
 				"Orta.vscode-jest"
 			]
 		}
