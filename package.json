@@ -15,6 +15,16 @@
 				"default": "./dist/cjs/index.js"
 			}
 		},
+		"./jest": {
+			"import": {
+				"types": "./dist/esm/jest/index.d.ts",
+				"default": "./dist/esm/jest/index.js"
+			},
+			"require": {
+				"types": "./dist/cjs/jest/index.d.ts",
+				"default": "./dist/cjs/jest/index.js"
+			}
+		},
 		"./package.json": "./package.json"
 	},
 	"files": [
@@ -27,6 +37,7 @@
 		"build:esm": "tsc -p ./tsconfig.esm.json",
 		"ci:build": "tsc --skipLibCheck false -p ./tsconfig.cjs.json && tsc --skipLibCheck false -p ./tsconfig.esm.json",
 		"clean": "rm -rf dist",
+		"coverage": "jest --coverage",
 		"format": "eslint --fix src && prettier --write src",
 		"lint": "eslint src && prettier --check src",
 		"prepare": "npm run build",
@@ -39,7 +50,7 @@
 	"keywords": [],
 	"devDependencies": {
 		"@testing-library/dom": "^10.4.0",
-		"@testing-library/react": "^16.0.1",
+		"@testing-library/react": "^16.0.0",
 		"@types/node": "^20.16.1",
 		"@types/react": "^18.3.4",
 		"@types/react-dom": "^18.3.0",
