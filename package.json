@@ -6,24 +6,8 @@
 	"main": "dist/index.js",
 	"exports": {
 		".": {
-			"import": {
-				"types": "./dist/esm/index.d.ts",
-				"default": "./dist/esm/index.js"
-			},
-			"require": {
-				"types": "./dist/cjs/index.d.ts",
-				"default": "./dist/cjs/index.js"
-			}
-		},
-		"./jest": {
-			"import": {
-				"types": "./dist/esm/jest/index.d.ts",
-				"default": "./dist/esm/jest/index.js"
-			},
-			"require": {
-				"types": "./dist/cjs/jest/index.d.ts",
-				"default": "./dist/cjs/jest/index.js"
-			}
+			"import": "./dist/esm/index.js",
+			"require": "./dist/cjs/index.js"
 		},
 		"./package.json": "./package.json"
 	},
