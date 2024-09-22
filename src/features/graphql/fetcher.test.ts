@@ -1,10 +1,10 @@
-import { getRestPhpVarName } from '../../lib/global/getRestPhpVarName';
+import { RestPhpVarName } from '../../lib/repository/RestPhpVarName';
 import { RestPhpVar } from '../../types/RestPhpVar';
 import { fetcher } from './fetcher';
 
 describe( 'fetcher', () => {
 	const setGlobalVar = ( graphqlUrl?: string, wpRestNonce?: string ) => {
-		const varName = getRestPhpVarName();
+		const varName = new RestPhpVarName().get();
 		const globalVar: RestPhpVar = {
 			graphqlUrl,
 			wpRestNonce,
@@ -13,7 +13,7 @@ describe( 'fetcher', () => {
 	};
 
 	const cleanup = () => {
-		( global as any )[ getRestPhpVarName() ] = undefined;
+		( global as any )[ new RestPhpVarName().get() ] = undefined;
 	};
 	beforeEach( cleanup );
 	afterEach( cleanup );
