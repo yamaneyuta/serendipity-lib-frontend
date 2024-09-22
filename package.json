@@ -38,7 +38,6 @@
 		"@types/node": "^20.16.1",
 		"@types/react": "^18.3.4",
 		"@types/react-dom": "^18.3.0",
-		"@yamaneyuta/serendipity-constants": "github:yamaneyuta/serendipity-constants#0.8.4",
 		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf#0.8.3",
 		"prettier": "npm:wp-prettier@^3.0.3"
 	},
