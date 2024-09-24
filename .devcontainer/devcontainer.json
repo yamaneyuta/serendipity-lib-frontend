@@ -42,7 +42,8 @@
 		"vscode": {
 			"extensions": [
 				"github.vscode-github-actions",
-				"Orta.vscode-jest"
+				"Orta.vscode-jest",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	},
