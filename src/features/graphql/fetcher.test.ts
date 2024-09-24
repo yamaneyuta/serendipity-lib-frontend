@@ -1,14 +1,14 @@
 import { PhpVarName } from '../../lib/repository/PhpVarName';
-import { RestPhpVar } from '../../types/RestPhpVar';
+import { PhpVar } from '../../types/PhpVar';
 import { fetcher } from './fetcher';
 
 describe( 'fetcher', () => {
 	const setGlobalVar = ( graphqlUrl?: string, wpRestNonce?: string ) => {
 		const varName = new PhpVarName().get();
-		const globalVar: RestPhpVar = {
+		const globalVar: PhpVar = {
 			graphqlUrl,
 			wpRestNonce,
-		} as RestPhpVar; // テストのために強制的に型を指定(テストではundefinedを許容する)
+		} as PhpVar; // テストのために強制的に型を指定(テストではundefinedを許容する)
 		( global as any )[ varName ] = globalVar;
 	};
 
