@@ -37,7 +37,7 @@
 		"@testing-library/react": "^16.0.0",
 		"@types/node": "^20.16.1",
 		"@types/react": "^18.3.4",
-		"@types/react-dom": "^18.3.0",
+		"@types/react-dom": "^18.3.1",
 		"@yamaneyuta/serendipity-dev-conf": "github:yamaneyuta/serendipity-dev-conf#0.8.3",
 		"prettier": "npm:wp-prettier@^3.0.3"
 	},
